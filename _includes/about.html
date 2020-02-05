@@ -26,12 +26,12 @@
 <h1>Projects</h1>
 <!---<iframe src="/assets/Project Resume final.pdf" width="100%" height="1400px">--->
 <h3>Aeronef Documentation</h3>
-<iframe src="/assets/img/AeronefDoc.pdf" width="100%" height="1400px"></iframe>
+<iframe src="/assets/imgs/AeronefDoc.pdf" width="100%" height="1400px"></iframe>
+<h3>"Autonomous Vehicles"</h3>
 <div class="user">
-    <h3>"Autonomous Vehicles"</h3>
     <div class="tech">
       <h2>RC Navigation & Mapping</h2>
-      <img src="/assets/img/rcav.PNG" alt="s1" style="width:100%;height:100%;">
+      <img src="/assets/imgs/rcav.PNG" alt="s1" style="width:100%;height:100%;">
       <h4>Navigation</h4>
       <p>The navigation is admittedly rather simple, but it can explore a pathway/building completely independently, without crashing.  It also manages speed depending on the situation (i.e. slower when turning or when there is a wall ahead).</p>
       <h4><a href="https://github.com/BHS-AV/AV_Algorithm/blob/master/Scripts/Map.py">Mapping</a></h4>
@@ -41,14 +41,14 @@
     </div>
     <div class="tech">
       <h3>Shopping Cart</h3>
-      <img src="/assets/img/cart.PNG" alt="s1" style="width:100%;height:100%;">
+      <img src="/assets/imgs/cart.PNG" alt="s1" style="width:100%;height:100%;">
       <p>I made this a couple of months ago, and it is pretty much my only large-scale project that involves much hardware. The original idea was born from a desire to take my team’s work in Autonomous Vehicles to the next level, but that never really worked out with my teacher. So it became a passion project until I finished it after a couple of weeks. I found the cart abandoned in the woods near my house, and using some electronics from my basement, managed to power it with electric motors. Eventually, I managed to make it controllable via a python script on my laptop.</p>
     </div>
   </div>
   <div class="user">
     <div class="tech">
-      <h2>"3D Function Visualizer"</h2>
-      <img src="/assets/img/fxvis.PNG" alt="s1" style="width:600px;height:600px;">
+      <h2>3D Function Visualizer</h2>
+      <img src="/assets/imgs/fxvis.PNG" alt="s1" style="width:600px;height:600px;">
       <p>This project originated as a 3D particle simulator (#4), but soon progressed into an experiment with 3D functions. I realized that if I created a 2D-float-array, I could use the value of each index as the z-position, and the two array indexes as the x and y. Hence, by inputting a simple z=f(x,y) function, it could create a 3D rendering of it by drawing lines to adjacent indexes.</p>
       <p>The first problem I had with this was how to handle 3D-rotations of perspective, and since I was unable to find much helpful information on how to use quaternions, I struggled with making it work.  However, I eventually just settled on the admittedly inefficient method of rotationally-translating each point around the origin every render.</p>
       <p>Eventually, while doing schoolwork, I realized I could alter my original method to graph polar functions. By replacing the float-array with a vector-array, I could instead have the array indexes represent the x-y orientation from the origin and store the x-y positions in the vector.  This worked surprisingly well, and after I made an algorithm to panel the graphs and render them in order of distance from the observer, I started to realize the potential this program had.</p>
@@ -57,8 +57,8 @@
   </div>
   <div class="user">
     <div class="tech">
-      <h2>"3D Particle Simulator"</h2>
-      <img src="/assets/img/particle.PNG" alt="s1" style="width:100%;height:100%;">
+      <h2>3D Particle Simulator</h2>
+      <img src="/assets/imgs/particle.PNG" alt="s1" style="width:100%;height:100%;">
       <p>I had made several particle simulators prior to this one, but since they were all 2D, I was always annoyed with my inability to model electromagnetism. Since electromagnetism is an inherently 3D force, as demonstrated by the right-hand rule, I knew I had to make a 3D-environment. So, I made this using Java’s Applet graphics library.</p>
       <p>It can model gravity, electromagnetism, pressure, and collisions between particles and trace their paths.</p>
     </div>
