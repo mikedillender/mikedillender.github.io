@@ -33,14 +33,22 @@
 </div>
 <div class="user">
     <div class="tech">
-      <h2>RC Navigation & Mapping</h2>
-      <img src="/assets/imgs/rcav.PNG" alt="s1" style="width:1000px;height:300px;">
-      <h3>Navigation</h3>
-      <p>The navigation is admittedly rather simple, but it can explore a pathway/building completely independently, without crashing.  It also manages speed depending on the situation (i.e. slower when turning or when there is a wall ahead).</p>
-      <h3><a href="https://github.com/BHS-AV/AV_Algorithm/blob/master/Scripts/Map.py">Mapping</a></h3>
-      <p>This is the portion I have been most passionate about, as evidenced by the file’s line count (2280 lines of code). For the first couple of months, I used the lidar to take in data and find a “line-of-best-fit” between data-points, thus creating various walls.  However, it was inefficient, and when a driving algorithm is inefficient, crashes are rather frequent. Eventually, I devised a new system, instead of making lines, I would treat the individual data-points as nodes.  Once the data was taken in, the nodes were strung together, and unnecessary nodes were removed.  This system is able to drive around a track, taking in well over eight thousand data-points, and create an accurate map of a mere forty nodes.</p>
-      <h3><a href="https://github.com/mikedillender/Gazebo-Map-Gen">Map Generation</a></h3>
-      <p>After nearly a year of working on the project, I decided that for better software testing, I would need more virtual maps to demo in— but there were none online. So, I decided to make a rather basic script to randomly generate a map for the car to test in.</p>
+        <h2>RC Navigation & Mapping</h2>
+        <img src="/assets/imgs/rcav.PNG" alt="s1" style="width:1000px;height:300px;">
+    </div>
+</div>
+<div class="user">
+    <div class="tech">
+        <h3><a href="https://github.com/BHS-AV/AV_Algorithm">Navigation</a></h3>
+        <p>The navigation is admittedly rather simple, but it can explore a pathway/building completely independently, without crashing.  It also manages speed depending on the situation (i.e. slower when turning or when there is a wall ahead).</p>
+    </div>
+    <div class="tech">
+        <h3><a href="https://github.com/BHS-AV/AV_Algorithm/blob/master/Scripts/Map.py">Mapping</a></h3>
+        <p>This is the portion I have been most passionate about, as evidenced by the file’s line count (2280 lines of code). For the first couple of months, I used the lidar to take in data and find a “line-of-best-fit” between data-points, thus creating various walls.  However, it was inefficient, and when a driving algorithm is inefficient, crashes are rather frequent. Eventually, I devised a new system, instead of making lines, I would treat the individual data-points as nodes.  Once the data was taken in, the nodes were strung together, and unnecessary nodes were removed.  This system is able to drive around a track, taking in well over eight thousand data-points, and create an accurate map of a mere forty nodes.</p>
+    </div>
+    <div class="tech">
+        <h3><a href="https://github.com/mikedillender/Gazebo-Map-Gen">Map Generation</a></h3>
+        <p>After nearly a year of working on the project, I decided that for better software testing, I would need more virtual maps to demo in— but there were none online. So, I decided to make a rather basic script to randomly generate a map for the car to test in.</p>
     </div>
   </div>
 <div class="user">
