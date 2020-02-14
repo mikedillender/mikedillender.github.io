@@ -59,7 +59,8 @@
   <div class="user">
     <div class="tech">
       <h2>3D Function Visualizer</h2>
-      <img src="/assets/imgs/fxvis.PNG" alt="s1" style="width:600px;height:600px;">
+      <!--img src="/assets/imgs/fxvis.PNG" alt="s1" style="width:600px;height:600px;">-->
+      <img src="/assets/imgs/fxvis1.PNG" alt="s1" style="width:1564px;height:768px;">
       <p>This project originated as a 3D particle simulator (which can be seen below), but soon progressed into an experiment with 3D functions. I realized that if I created a 2D-float-array, I could use the value of each index as the z-position, and the two array indexes as the x and y. Hence, by inputting a simple z=f(x,y) function, it could create a 3D rendering of it by drawing lines to adjacent indexes.</p>
       <p>The first problem I had with this was how to handle 3D-rotations of perspective, and since I was unable to find much helpful information on how to use quaternions, I struggled with making it work.  However, I eventually just settled on the admittedly inefficient method of rotationally-translating each point around the origin every render.</p>
       <p>Eventually, while doing schoolwork, I realized I could alter my original method to graph polar functions. By replacing the float-array with a vector-array, I could instead have the array indexes represent the x-y orientation from the origin and store the x-y positions in the vector.  This worked surprisingly well, and after I made an algorithm to panel the graphs and render them in order of distance from the observer, I started to realize the potential this program had.</p>
