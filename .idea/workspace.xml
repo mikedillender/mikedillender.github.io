@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac6f0d62-72b2-4566-bacd-6eebef94d050" name="Default Changelist" comment="">
+    <list default="true" id="ac6f0d62-72b2-4566-bacd-6eebef94d050" name="Default Changelist" comment="added gif">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,15 +44,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="3099" />
+          <entry key="html" value="3159" />
           <entry key="save" value="9" />
-          <entry key="txt" value="226" />
+          <entry key="txt" value="235" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3099" />
-          <entry key="PLAIN_TEXT" value="226" />
+          <entry key="HTML" value="3159" />
+          <entry key="PLAIN_TEXT" value="235" />
           <entry key="UNKNOWN" value="9" />
         </counts>
       </usages-collector>
@@ -68,11 +68,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="84" column="22" lean-forward="true" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+            <state relative-caret-position="507">
+              <caret line="76" column="75" selection-start-line="76" selection-start-column="75" selection-end-line="76" selection-end-column="75" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#div#0;n#div#6;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -392,11 +394,25 @@
       <option name="project" value="LOCAL" />
       <updated>1581713883901</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="added gif">
+      <created>1582040920486</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1582040920486</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added gif">
+      <created>1582041412669</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1582041412669</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1519" height="977" extended-state="6" />
+    <frame x="-7" y="-7" width="1519" height="977" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1425634" />
@@ -452,7 +468,8 @@
     <MESSAGE value="rearranged fxvis image 3" />
     <MESSAGE value="rearranged fxvis image 4" />
     <MESSAGE value="rearranged fxvis image 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="rearranged fxvis image 5" />
+    <MESSAGE value="added gif" />
+    <option name="LAST_COMMIT_MESSAGE" value="added gif" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_config.yml.save">
@@ -510,11 +527,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="84" column="22" lean-forward="true" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+        <state relative-caret-position="507">
+          <caret line="76" column="75" selection-start-line="76" selection-start-column="75" selection-end-line="76" selection-end-column="75" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#div#6;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
