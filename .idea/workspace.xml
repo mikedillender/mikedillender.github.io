@@ -67,8 +67,8 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="93" column="6" lean-forward="true" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="6" />
+            <state relative-caret-position="472">
+              <caret line="90" column="31" lean-forward="false" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#6;n#!!top" expanded="true" />
               </folding>
@@ -512,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584750938083</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="added more coil gun info">
+      <created>1588835903884</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1588835903884</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -551,7 +558,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="attempt to add resume" />
     <MESSAGE value="adding hobbies maybe?" />
     <MESSAGE value="typos fixed" />
     <MESSAGE value="test" />
@@ -576,7 +582,8 @@
     <MESSAGE value="added gif" />
     <MESSAGE value="gif resized" />
     <MESSAGE value="coil gun and generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="coil gun and generator" />
+    <MESSAGE value="added more coil gun info" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more coil gun info" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -668,8 +675,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="93" column="6" lean-forward="true" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="6" />
+        <state relative-caret-position="472">
+          <caret line="90" column="31" lean-forward="false" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#6;n#!!top" expanded="true" />
           </folding>
