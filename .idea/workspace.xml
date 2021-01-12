@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac6f0d62-72b2-4566-bacd-6eebef94d050" name="Default Changelist" comment="working on sections" />
+    <list default="true" id="ac6f0d62-72b2-4566-bacd-6eebef94d050" name="Default Changelist" comment="working on sections">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/about.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,7 +240,9 @@
       <workItem from="1610270843521" duration="1461000" />
       <workItem from="1610272667644" duration="130000" />
       <workItem from="1610272887492" duration="58000" />
-      <workItem from="1610272953573" duration="2199000" />
+      <workItem from="1610272953573" duration="2324000" />
+      <workItem from="1610360437940" duration="958000" />
+      <workItem from="1610466712001" duration="2552000" />
     </task>
     <task id="LOCAL-00001" summary="attempt to add resume">
       <created>1577489796857</created>
