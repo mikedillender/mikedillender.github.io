@@ -1,14 +1,14 @@
 # Site settings
 title: Mike Dillender
-description: My Resume
+description: About Me
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Mike Dillender
 user_description: I'm a high school student and aspiring software engineer.   #<a href="https://mauriciourraco.com" target="_blank">https://mauriciourraco.com</a>
-user_title: Software Engineer
-email: dillemic000@gmail.com
+user_title: Electrical & Software Engineer
+email: dillemic@umich.edu
 # twitter_username:
 # github_username:  mikedillender
 # gplus_username:
