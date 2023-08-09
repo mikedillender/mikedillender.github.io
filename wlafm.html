@@ -88,32 +88,29 @@
 
 			<div class="fh5co-narrow-content">
 				<div class="row">
-
-					<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-						<figure class="text-center">
-							<img src="images/work.jpg" alt="Free HTML5 Bootstrap" class="img-responsive">
-						</figure>
-					</div>
-					
-					<div class="col-md-8 col-md-offset-2 animate-box" data-animate-effect="fadeInLeft">
-						
-						<div class="col-md-9 col-md-push-3">
-							<h1>Project</h1>
-							<p>P1</p>
-
-							<p>P2</p>
+						<div class="col-md-5">
+							<h1>White-light Height Scanning</h1>
+							<p>As part of our work investigating the purcell effect, my collaborator fabricated some samples of Si with varied SiO2 height. Since the oxide thickness was small, there was a clear thin-film reflection pattern as a function of height, so I thought it could be interesting to back-calculate the height of the sample using the thin film color, and use that to approximate the expected purcell factor.</p>
+							<p>This program was useful for rough estimates, but after we kept having to take afm scans to get the exact profile, I wanted to make it more exact so we could use this software in place of AFM measurements. So, first, instead of calculating the color based on what the human eye would see under a black-body WL source, I took into account the spectrum of the CCD and WL source at our microscope to more precisely determine the color profile.</p>
+						</div>
+						<div class="col-md-6 col-md-push-1 animate-box" data-animate-effect="fadeInLeft">
+							<img src="images/sio2_purcell_init.png" class="img-responsive">
+							<p><i>First Iteration of the SiO2 Structure</i></p>
 						</div>
 
-						<!--div class="col-md-3 col-md-pull-9 fh5co-services">
-							<h3>Services</h3>
-							<ul>
-								<li>Web Design</li>
-								<li>e-Commerce</li>
-								<li>Logo &amp; Branding</li>
-								<li>Packaging</li>
-							</ul>
-						</div-->
+				</div>
+				<div class="row">
+					<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+						<center><img src="images/sio2_color_fp.png" class="img-responsive"></center>
 
+						<figure class="text-center">
+							<p><i>Approximate purcell factor shape and SiO2 color vs thin-film thickness. (Calculated using the spectrum of our white light source and CCD)</i></p>
+						</figure>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+						<p>Next, I made a program to read in an image, select an area, and then use the calculated color-height profile to create a height profile of the image.</p>
 					</div>
 				</div>
 
